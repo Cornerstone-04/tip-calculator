@@ -36,7 +36,6 @@ function Calc(){
         document.querySelector('h2').style.backgroundColor = "#518428";
         document.querySelector('h2').style.color = "#ffffff";
         document.querySelector('h2').style.padding = "10px";
-        
       }
 }
 

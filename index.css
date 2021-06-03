@@ -10,6 +10,10 @@
     justify-content: center;
 }
 
+h1{
+    text-align: center;
+}
+
 .section-one form{
     display: flex;
     justify-content: space-between;
