@@ -1,0 +1,86 @@
+*{
+    /* padding: 0px; */
+    /* margin: 0px; */
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-one form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-one form div{
+    display: block;
+}
+
+.section-two{
+    border: 1px solid #afacac;
+    background-color: #eeeeee;
+    padding: 7px;
+}
+
+.section-two form{
+    display: table;
+    margin: 0 auto;
+}
+
+.form-div{
+    display: table-row;
+}
+
+.form-div label{
+    display: table-cell;
+}
+
+.form-div input{
+    display: table-cell;
+    border: 1px solid #336699;
+    box-shadow: 1px 2px 2px #000000;
+    margin-bottom: 5px;
+    padding: 2%;
+    margin-left: 5%;
+    outline: none;
+    font-size: large;
+    width: 90%;
+    text-align: right;
+}
+
+.form-div input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form-div input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.btn-div button{
+    border: none;
+    padding: 2%;
+    color: #000;
+    margin-left: 5px;
+}
+
+.btn-div button:nth-child(1){
+    background-color: #518428;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.btn-div button:nth-child(2){
+    background-color: #9c9c9c;
+    color: #ffffff;
+}
