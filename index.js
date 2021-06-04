@@ -15,16 +15,16 @@ function Calc(){
             document.querySelector('h2').style.textAlign = "center";
       } else{
             document.querySelector('.par1').innerHTML = "Tip:";
-            document.querySelector('.par5').innerHTML = "$" + tip;
+            document.querySelector('.par5').innerHTML = "$" + tip.toFixed(2);
 
             document.querySelector('.par2').innerHTML = "Total Amount:";
-            document.querySelector('.par6').innerHTML = "$" + totalAmount;
+            document.querySelector('.par6').innerHTML = "$" + totalAmount.toFixed(2);
 
             document.querySelector('.par3').innerHTML = "Tip Per Person:";
-            document.querySelector('.par7').innerHTML = "$" + tipPerPerson;
+            document.querySelector('.par7').innerHTML = "$" + tipPerPerson.toFixed(2);
 
             document.querySelector('.par4').innerHTML = "Total Per Person:";
-            document.querySelector('.par8').innerHTML = "$" + totalPerPerson;
+            document.querySelector('.par8').innerHTML = "$" + totalPerPerson.toFixed(2);
 
             document.querySelector('h2').innerHTML = "RESULT";
             document.querySelector('h2').style.backgroundColor = "#518428";
