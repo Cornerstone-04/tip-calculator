@@ -23,6 +23,14 @@ h1{
     display: block;
 }
 
+.par1, .par2, .par3, .par4{
+    text-align: left;
+}
+
+.par5, .par6, .par7, .par8{
+    text-align: right;
+}
+
 .section-two{
     border: 1px solid #afacac;
     background-color: #eeeeee;
